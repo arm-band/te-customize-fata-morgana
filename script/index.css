@@ -15,7 +15,8 @@ body {
 	padding: 0;
 	border: none;
 	color: buttontext;
-	background-color: buttonface;
+/*	background-color: buttonface;*/
+background-color: #333;
 	height: 100%;
 }
 
@@ -45,6 +46,7 @@ img.button, img.button1, img.hoverbutton, img.activebutton {
 
 svg {
   fill: currentColor;
+  stroke: currentColor;
 }
 
 form {
@@ -83,7 +85,8 @@ button {
 	display: inline-block; *display: inline; *zoom: 1;
 	margin: 1px 5px;
 	text-decoration: none;
-	color: buttontext;
+/*	color: buttontext;*/
+    color: #fff;
 	cursor: default;
 	white-space: nowrap;
 }
@@ -93,9 +96,12 @@ button {
 	cursor: default;
 	text-decoration: none;
 	white-space: nowrap;
-	color: buttontext;
+/*	color: buttontext;
 	background-color: threedlightshadow;
-	border: 1px solid buttonshadow;
+	border: 1px solid buttonshadow;*/
+    color: #fff;
+	background-color: #666;
+	border: 1px solid #999;
 	padding: 0 4px;
 	margin: 0;
 }
@@ -105,6 +111,7 @@ button {
 	margin: 1px 1px 1px 0;
 	padding: 1px 1px 1px 0;
 	vertical-align: middle;
+    color: #fff; /* CMD */
 }
 
 .toolbar1 {
@@ -231,9 +238,11 @@ a.treebutton:hover {
 }
 
 .breadcrumb {
-	color: windowtext;
-	background-color: window;
+/*	color: windowtext;
+	background-color: window;*/
 	white-space: nowrap;
+    background-color: #444;
+    color: #eee;
 }
 
 .separator {
@@ -277,9 +286,12 @@ a.treebutton:hover {
 }
 
 .pane {
+    /* オプションの左側 */
 	width: 100%;
-	color: windowtext;
-	background-color: window;
+/*	color: windowtext;*/
+    color: #fff;
+/*	background-color: window;*/
+    background-color: #444;
 	border: 1px solid windowframe;
 }
 
@@ -288,12 +300,15 @@ a.treebutton:hover {
 }
 
 .panel {
+    /* オプションページ */
 	border: 1px solid buttonshadow;
 	padding: 4px;
 	width: 100%;
 	line-height: 1.5em;
 	overflow-y: auto;
 	clear:both;
+    background-color: #555;
+    color: #fff;
 }
 
 .color {
